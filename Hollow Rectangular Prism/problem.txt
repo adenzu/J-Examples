@@ -1,0 +1,10 @@
+Calculate the remainder volume of a rectangular prism after it's hollowed to obtain
+given exterior thickness
+
+Example 1:
+
+Dimensions: 60x30x35, Thickness: 0.4
+
+Execution: 60 30 35 v 0.4
+
+Result: (60*30*35) - ((60-2*0.4)*(30-2*0.4)*(35-2*0.4)) = 3880.51
