@@ -4,6 +4,7 @@ bottomTriangleMaskOfLength =. [: (runningMax *. -.) identityMatrixOfLength
 matrixIndices =. [: ([: (<@,"0 0 |:)(,~ $ i.)) #
 sumTable =. +/~
 removeEmpty =. -.&a:
+
 v =. [: ([: >@removeEmpty ,) ((= (bottomTriangleMaskOfLength@# *. sumTable)) #"0 0 matrixIndices@:])
 
 NB. Test cases
